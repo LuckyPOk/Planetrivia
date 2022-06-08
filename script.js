@@ -13,15 +13,15 @@ contButton = document.getElementById("cont");
 messDiv = document.getElementById("message");
 messDiv.innerHTML = "<h1>Planetrivia</h1><br><div>Click anywhere to start game!</div>";
 contButton.innerHTML = "Continue ->";
-document.getElementById("buttonA").innerHTML = "";
-document.getElementById("buttonB").innerHTML = "";
-document.getElementById("buttonC").innerHTML = "";
-document.getElementById("buttonD").innerHTML = "";
 page = 0;
 } // window.onload
 
 function closeLightBox(){
     document.getElementById("lightbox").style.display = "none";
+	document.getElementById("buttonA").innerHTML = "";
+	document.getElementById("buttonB").innerHTML = "";
+	document.getElementById("buttonC").innerHTML = "";
+	document.getElementById("buttonD").innerHTML = "";
 fetchPlanetData();
 } // closeLightBox
 
