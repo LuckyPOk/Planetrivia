@@ -44,6 +44,15 @@
 	font-size: 40px;
 }
 
+#text {
+	font-size: 15px;
+}
+
+#planet > img {
+	width: 160px;
+	height: auto;
+}
+
 #buttonA:hover,
 #buttonB:hover,
 #buttonC:hover,
@@ -61,4 +70,25 @@
 #text,
 #cont {
 	font-size: 22px;
+}
+
+@media (min-width: 700px) {
+	
+	#planet > img {
+	width: 400px;
+	height: auto;
+	}
+	
+	#text {
+	font-size: 30px;
+	}
+
+	#buttonA,
+	#buttonB,
+	#buttonC,
+	#buttonD,
+	#text,
+	#cont {
+	font-size: 33px;
+	}
 }
